@@ -1,0 +1,77 @@
+.info-page {
+    /* background-color: rgb(141, 116, 230); */
+    background-image: linear-gradient(rgb(204, 188, 248), #b1589e);
+    /* background-repeat: no-repeat; */
+}
+.form-page{
+    background-image: url("background-image.png");
+
+}
+.form-field{
+    border-radius: 4px;
+    width: 40%;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}
+form{
+    padding-top: 10rem;
+}
+/*  create some space between the image and the page edges */
+.my-details{
+    margin-top: 2em;
+    margin-left: 2em;
+    /* using google font lato and if it doesnt exist then use sans-serif */
+    font-family: 'Lato', sans-serif;
+}
+
+/* Set the picture to the left and give space for the text */
+.my-details img{
+    float: left;
+    position: relative;
+    padding-right: 3rem;
+}
+.button{
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: #f44336;
+    color: white;
+    padding: 14px 40px;
+    margin-top: 25px;
+}
+table{
+    border: 1px ridge rgb(82, 78, 78);
+    width: 100%;
+
+}
+
+#contact-info{
+    padding-top: 5rem;
+    font-size: 14px;
+    
+}
+/* #contact-info th{
+    width: 100%;
+} */
+.contact-table{
+    border: 1px ridge rgb(82, 78, 78);  
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.cv-border{
+    border: 1px ridge rgb(82, 78, 78);
+    width: 50%;
+}
+.italic-headings{
+    font-style: italic;
+    
+}
+#exp-details{
+    font-size: small;
+}
+.dates{
+   font-size: x-small;
+   font-weight: bolder
+}
